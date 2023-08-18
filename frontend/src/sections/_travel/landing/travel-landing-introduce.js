@@ -3,15 +3,14 @@ import { useRef } from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
+import { CardMedia } from '@mui/material';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import Image from 'src/components/image';
 import Iconify from 'src/components/iconify';
 import SvgColor from 'src/components/svg-color';
 import { useResponsive } from 'src/hooks/use-responsive';
 import { useBoundingClientRect } from 'src/hooks/use-bounding-client-rect';
-import { CardMedia } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
