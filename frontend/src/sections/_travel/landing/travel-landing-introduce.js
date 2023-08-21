@@ -45,7 +45,7 @@ export default function TravelLandingIntroduce() {
     <Box
       sx={{
         pt: { xs: 10, md: 15 },
-        pb: { xs: 5, md: 10 },
+        pb: { xs: 5, md: 5 },
       }}
     >
       <Container ref={containerRef}>

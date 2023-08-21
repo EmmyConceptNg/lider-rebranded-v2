@@ -21,11 +21,9 @@ export default function TravelLandingTourFeatured({ tours }) {
       }}
     >
       <Stack spacing={3} sx={{ textAlign: 'center' }}>
-        <Typography variant="h3">Featured Tours</Typography>
+        <Typography variant="h3">Documents</Typography>
 
-        <Typography sx={{ color: 'text.secondary' }}>
-          {`Our Featured Tours can help you find the trip that's perfect for you!`}
-        </Typography>
+        <Typography sx={{ color: 'text.secondary' }}>Doecuments heading text!</Typography>
       </Stack>
 
       <Box
@@ -53,7 +51,7 @@ export default function TravelLandingTourFeatured({ tours }) {
           variant="outlined"
           color="inherit"
         >
-          View All Tours
+          View All Documents
         </Button>
       </Box>
     </Container>
