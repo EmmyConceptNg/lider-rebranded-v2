@@ -78,7 +78,7 @@ export default function TravelLandingAbout() {
           <Grid item md={6} xs={12}>
             <Stack spacing={2} xs={{ my: 'auto' }}>
               <Typography variant="h4" align="left">
-                Vehicle Registration in Poland and Abraod
+                Vehicle Registration in Poland and Abraod.
               </Typography>
               <Typography variant="body1" align="left">
                 Jako biuro Lider świadczymy usługi pośrednictwa w rejestracji pojazdów sprowadzanych
