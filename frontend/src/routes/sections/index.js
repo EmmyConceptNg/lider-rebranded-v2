@@ -7,7 +7,7 @@ import { SplashScreen } from 'src/components/loading-screen';
 import { authRoutes } from './auth';
 import { errorRoutes } from './error';
 import { commonRoutes } from './common';
-import { careerRoutes } from './career';
+import { travelRoutes } from './travel';
 
 // ----------------------------------------------------------------------
 
@@ -29,7 +29,7 @@ export default function Router() {
         { element: <LandingPage />, index: true },
         { path: 'support', element: <SupportPage /> },
 
-        ...careerRoutes,
+        ...travelRoutes,
       ],
     },
 

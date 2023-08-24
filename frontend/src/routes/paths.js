@@ -1,17 +1,7 @@
 // ----------------------------------------------------------------------
 
 export const paths = {
-  // Marketing
-  marketing: {
-    root: '/marketing',
-    services: '/marketing/services',
-    caseStudies: '/marketing/case-studies',
-    caseStudy: `/marketing/case-study`,
-    posts: '/marketing/posts',
-    post: `/marketing/post`,
-    about: '/marketing/about',
-    contact: '/marketing/contact',
-  },
+
   // Travel
   travel: {
     root: '/travel',
@@ -24,45 +14,8 @@ export const paths = {
     about: '/travel/about',
     contact: '/travel/contact',
   },
-  // Career
-  career: {
-    root: '/career',
-    jobs: '/career/jobs',
-    job: `/career/job`,
-    posts: '/career/posts',
-    post: `/career/post`,
-    about: '/career/about',
-    contact: '/career/contact',
-  },
-  // E-learning
-  eLearning: {
-    root: '/e-learning',
-    courses: '/e-learning/courses',
-    course: `/e-learning/course`,
-    posts: '/e-learning/posts',
-    post: `/e-learning/post`,
-    about: '/e-learning/about',
-    contact: '/e-learning/contact',
-  },
-  // E-commerce
-  eCommerce: {
-    root: '/e-commerce',
-    products: '/e-commerce/products',
-    product: `/e-commerce/product`,
-    cart: '/e-commerce/cart',
-    checkout: `/e-commerce/checkout`,
-    orderCompleted: '/e-commerce/order-completed',
-    wishlist: `/e-commerce/wishlist`,
-    compare: `/e-commerce/compare`,
-    account: {
-      root: `/e-commerce/account`,
-      personal: `/e-commerce/account/personal`,
-      wishlist: `/e-commerce/account/wishlist`,
-      vouchers: `/e-commerce/account/vouchers`,
-      orders: `/e-commerce/account/orders`,
-      payment: `/e-commerce/account/payment`,
-    },
-  },
+
+ 
   // Auth
   loginCover: '/auth/login-cover',
   loginBackground: '/auth/login-background',

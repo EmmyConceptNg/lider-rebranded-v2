@@ -8,7 +8,7 @@ export default function TravelAboutPage() {
   return (
     <>
       <Helmet>
-        <title>About Us</title>
+        <title>Lider - About Us</title>
       </Helmet>
 
       <TravelAboutView />

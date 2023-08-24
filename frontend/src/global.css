@@ -1,4 +1,3 @@
-
 /* scrollbar */
 @import '~simplebar-react/dist/simplebar.min.css';
 
@@ -13,3 +12,36 @@
 
 /* lazy image */
 @import '~react-lazy-load-image-component/src/effects/blur.css';
+
+.scroll-element {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.scroll-element.visible {
+  opacity: 1;
+}
+
+.slide-from-left {
+  transform: translateX(-100%);
+}
+
+.slide-from-right {
+  transform: translateX(100%);
+}
+
+.slide-from-top {
+  transform: translateY(-100%);
+}
+
+.slide-from-bottom {
+  transform: translateY(100%);
+}
+
+.scroll-element.visible.slide-from-left,
+.scroll-element.visible.slide-from-right,
+.scroll-element.visible.slide-from-top,
+.scroll-element.visible.slide-from-bottom {
+  transform: translate(0);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
